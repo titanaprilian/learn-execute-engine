@@ -10,20 +10,20 @@
 *Max 2-3 bounded sprints (35–45 min each). The Doer executes linearly with zero deliberation.*
 
 ### Sprint 1: Backend & Data Architecture Defense (private-movie)
-- **Entry Trigger:** Open `prep/private_movie_interview_defense.md` (Sprint 1 section) and `https://github.com/titanaprilian/private-movie/blob/main/apps/backend/`
-- **Micro-Action (First 120s):** Read Section 1 of `prep/private_movie_interview_defense.md` out loud and open `apps/backend/src/app.ts` in your browser.
+- **Entry Trigger:** https://github.com/titanaprilian/learn-execute-engine/blob/main/prep/private_movie_interview_defense.md#sprint-1-backend--data-architecture-defense-50m and https://github.com/titanaprilian/private-movie/blob/main/apps/backend/
+- **Micro-Action (First 120s):** Open the Sprint 1 defense link above, read Section 1 out loud, and open https://github.com/titanaprilian/private-movie/blob/main/apps/backend/src/app.ts
 - **Definition of Done:** Rehearse the 3 backend talking points (Elysia DI, Drizzle transactions, S3 stream resolution) spoken out loud without pauses.
 - **Timebox:** 50 minutes
 
 ### Sprint 2: Frontend Architecture & State Management Defense
-- **Entry Trigger:** Open `prep/private_movie_interview_defense.md` (Sprint 2 section) and `https://github.com/titanaprilian/private-movie/blob/main/apps/web/`
-- **Micro-Action (First 120s):** Open the TanStack Query vs Zustand section in `prep/private_movie_interview_defense.md` and read the state boundaries out loud.
+- **Entry Trigger:** https://github.com/titanaprilian/learn-execute-engine/blob/main/prep/private_movie_interview_defense.md#sprint-2-frontend-architecture--state-management-50m and https://github.com/titanaprilian/private-movie/blob/main/apps/web/
+- **Micro-Action (First 120s):** Open the Sprint 2 defense link above, read the TanStack Query vs Zustand section out loud, and open https://github.com/titanaprilian/private-movie/blob/main/apps/web/
 - **Definition of Done:** Verbally explain the state management hierarchy (Server Cache vs Client UI state) and why TanStack Router was selected over Next.js.
 - **Timebox:** 50 minutes
 
 ### Sprint 3: Tough Scenarios & Verbal Rehearsal
-- **Entry Trigger:** Open `prep/private_movie_interview_defense.md` (Sprint 3: Tough Scenarios)
-- **Micro-Action (First 120s):** Read Question 1 ("What happens if stream fails mid-playback?") and start recording/speaking your answer.
+- **Entry Trigger:** https://github.com/titanaprilian/learn-execute-engine/blob/main/prep/private_movie_interview_defense.md#sprint-3-tough-scenarios--verbal-rehearsal-50m
+- **Micro-Action (First 120s):** Open the Sprint 3 scenario link above, read Question 1 ("What happens if stream fails mid-playback?"), and start recording/speaking your answer out loud.
 - **Definition of Done:** Deliver fluent verbal answers to all 3 scenario questions (streaming fallback, monorepo test standards, Postgres query scaling).
 - **Timebox:** 50 minutes
 
