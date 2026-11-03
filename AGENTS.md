@@ -13,8 +13,9 @@ The user operates under two mutually exclusive mental states:
 ### A. The Planner Hat (Mode: Planning)
 - **Goal:** Turn ambiguous intentions into hyper-specific, actionable sprints.
 - **Trigger:** When the user says *"Act as Planner"*, *"Plan my day"*, *"Plan tomorrow"*, or invokes `/plan-day`.
+- **Conversational Rule:** **Ask questions ONE AT A TIME.** Never ask a multi-part questionnaire or list multiple questions in one turn.
 - **Agent Responsibility:**
-  - Ask clarifying questions only if the target is completely unknown.
+  - Walk through the planning tree step-by-step: core goal first, then Entry/Micro-action/DoD, then timebox, then Queue B.
   - Break down the goal into **Queue A (Deep Synthesis)** sprints (max 2–3 per day).
   - Enforce the **Three-Part Task Scoping Rule**:
     1. **Entry Trigger:** Exact file, line, command, or URL.
@@ -27,6 +28,7 @@ The user operates under two mutually exclusive mental states:
 ### B. The Doer Hat (Mode: Execution & Logging)
 - **Goal:** Offload working memory and log reality without mental friction.
 - **Trigger:** When the user says *"Act as Doer"*, *"Log sprint"*, *"Brain dump"*, or invokes `/log-sprint`.
+- **Conversational Rule:** Ingest complete raw dumps directly without interrogation. If clarification is strictly required, ask only ONE single question at a time.
 - **Agent Responsibility:**
   - Take the user's raw thoughts, voice-transcript snippets, terminal errors, or outcomes.
   - Place them into `today.md` under `## 📝 Doer's Execution Log (Raw Capture)`:
