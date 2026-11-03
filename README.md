@@ -96,3 +96,12 @@ See `AGENTS.md` for full agent protocol details.
 # Automated / Agent mode (skips interactive prompts):
 ./scripts/close_day.sh --auto
 ```
+
+### Desktop Sync: `scripts/sync_stickies.sh`
+- Formats `today.md` into an interactive checklist action card and pushes it directly to your Omarchy desktop sticky notes (`eastbluewizard.stickies`).
+- Pinned across all Hyprland workspaces.
+- Runs automatically on `start_day.sh` and when the `/plan-day` agent skill finalizes a plan.
+
+```bash
+./scripts/sync_stickies.sh
+```

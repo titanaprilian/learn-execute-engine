@@ -30,7 +30,8 @@ You are acting strictly as the **Planner**. The user will provide raw, unstructu
 4. **Step 4: Queue B Fallback & Finalize.**
    - Suggest 2–3 low-energy maintenance tasks from `queue_b/maintenance_tasks.md` and confirm.
    - *Wait for answer.*
-5. **Step 5: Write to `today.md`.**
+5. **Step 5: Write to `today.md` & Sync Desktop Sticky Note.**
    - If planning for *tomorrow*, run `./scripts/close_day.sh --auto` to archive today and create tomorrow's fresh file.
    - Write the finalized plan into `today.md`.
-   - Confirm shutdown: *"Plan locked in `today.md`. Phone away. Rest now."*
+   - Run `./scripts/sync_stickies.sh` to automatically push the new queues to the desktop sticky note.
+   - Confirm shutdown: *"Plan locked in `today.md` and synced to desktop sticky note. Phone away. Rest now."*

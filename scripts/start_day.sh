@@ -28,6 +28,11 @@ else
     echo "today.md already exists."
 fi
 
+# Sync with desktop sticky notes
+if [[ -x "scripts/sync_stickies.sh" ]]; then
+    ./scripts/sync_stickies.sh || true
+fi
+
 # Print boundary rules
 echo ""
 echo "=========================================================="
